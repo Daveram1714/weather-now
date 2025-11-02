@@ -45,8 +45,8 @@ function Home() {
           current.temperature > 30
             ? "Sunny"
             : current.temperature > 20
-            ? "Partly Cloudy"
-            : "Cool & Breezy",
+              ? "Partly Cloudy"
+              : "Cool & Breezy",
         feelsLike: (current.temperature + 2).toFixed(1),
         humidity: data.hourly.relative_humidity_2m[0],
         visibility: data.hourly.visibility[0] / 1000, // in km
@@ -149,7 +149,7 @@ function Home() {
 
                 <div className="flex-shrink-0 ml-6">
                   <img
-                    src="/cloud.png"
+                    src={`${import.meta.env.BASE_URL}cloud.png`}
                     alt="Weather"
                     className="w-20 sm:w-28 md:w-72 opacity-90"
                   />
