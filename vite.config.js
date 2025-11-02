@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   plugins: [react() , tailwindcss()],
-  base:"/weather-now"
+  base:"/weather-now/"
 })
 
 
