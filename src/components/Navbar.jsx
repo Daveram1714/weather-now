@@ -33,7 +33,7 @@ function Navbar() {
                 )}
 
                 <img
-                    src="src/assets/3.jpg"
+                    src="/3.jpg"
                     className="w-10 h-10 rounded-full object-cover shadow-md border border-white/30"
                     alt="Avatar"
                 />

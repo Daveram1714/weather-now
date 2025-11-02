@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import bgImg from "./assets/bg-image.jpg";
+import bgImg from "./bg-image.jpg";
 import Home from './pages/home'
 
 function App() {

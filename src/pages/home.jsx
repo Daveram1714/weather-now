@@ -149,7 +149,7 @@ function Home() {
 
                 <div className="flex-shrink-0 ml-6">
                   <img
-                    src="src/assets/cloud.png"
+                    src="/cloud.png"
                     alt="Weather"
                     className="w-20 sm:w-28 md:w-72 opacity-90"
                   />
